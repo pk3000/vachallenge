@@ -1,0 +1,57 @@
+body {
+  background-color: #2c2c2c;
+  font-family: 'Roboto', sans-serif;
+}
+
+.va-main-content{
+  color: black;
+  background-color: white;
+}
+
+.fa-image, .fa-heart, .fa-camera {
+  color: white;
+}
+
+.va-header-row {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: #272b4a;
+  color: white;
+  vertical-align: middle;
+}
+.va-footer-row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #272b4a;
+  color: white;
+  vertical-align: middle;
+}
+
+.va-pros{
+  text-align: center;
+  color: white;
+}
+
+.va-pros-row {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.va-pros-row .col{
+  margin:50px;
+}
+
+.big-banner {
+  background: transparent url('img/MountainsBG.jpg');
+  height: 500px;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h6{
+  font-size: 12px;
+}
